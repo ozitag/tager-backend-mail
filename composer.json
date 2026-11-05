@@ -12,15 +12,16 @@
     }
   ],
   "require": {
-    "ozitag/tager-backend-core": "^1.8",
-    "ozitag/tager-backend-rbac": "^1.2",
-    "ozitag/tager-backend-crud": "^1.6",
+    "php": "^8.5",
+    "ozitag/tager-backend-core": "^2.0",
+    "ozitag/tager-backend-rbac": "^2.0",
+    "ozitag/tager-backend-crud": "^2.0",
     "sendpulse/rest-api": "^1.0",
-    "symfony/http-client": "^6.0",
-    "symfony/mailgun-mailer": "^6.0",
-    "symfony/sendgrid-mailer": "^6.0",
-    "symfony/sendinblue-mailer": "^6.0",
-    "symfony/mailchimp-mailer": "^6.0"
+    "symfony/http-client": "^8.0",
+    "symfony/mailgun-mailer": "^8.0",
+    "symfony/sendgrid-mailer": "^8.0",
+    "symfony/brevo-mailer": "^8.0",
+    "symfony/mailchimp-mailer": "^8.0"
   },
   "autoload": {
     "psr-4": {
